@@ -1,0 +1,19 @@
+# Filename: config.txt
+# Description: This is the config file for proxy server
+# Author: Qianying Ji and Yahui Xiong
+# Date: December 4, 2015
+
+# block complete access to the site
+www.badsite.com *
+# block complete access to the site (missing * defaults to ‘block complete access’ as above)
+# www.badsite.com
+# block all gif files from www.microsoft.com
+# www.microsoft.com image/gif
+# block all images i.e. gif, jpeg, png, etc.
+www.w3schools.com *
+
+www.gnu.org image/png
+
+cgi.cselabs.umn.edu image/*
+
+www-users.cselabs.umn.edu image/jpeg
